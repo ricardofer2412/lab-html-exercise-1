@@ -20,6 +20,7 @@ auditing features built into the npm client, a zero-friction way to make open so
 
 <body>
     <header>
+        <!-- Top Nav Bar  -->
         <div>
             <div>
                 <img class="blackHeart" src="./images/black-heart.png" alt="black heart" />
@@ -38,12 +39,13 @@ auditing features built into the npm client, a zero-friction way to make open so
 
         </div>
 
-
-        <div>
-            <img src='./images/npm-logo.png' alt="logo">
+<!-- Bottom  nav -->
+        <div class='nav-bar-search'>
+            <img width='80px' height='30px' src='./images/npm-logo.png' alt="logo">
             <div class="search">
-                <img src="./images/magnifying-glass.png" alt='search'>
-                <input type="text" placeholder="Search packages" />
+                <img class='magnifying' width='30px' height='30px' src="./images/magnifying-glass.png" alt='search'>
+                <input class='search-input' type="text" placeholder="Search packages" />
+                <button class='search-button'>Search</button>
             </div>
             <div class="nav-buttons">
                 <button class='join-button'>Join</button>
@@ -52,27 +54,31 @@ auditing features built into the npm client, a zero-friction way to make open so
             </div>
         </div>
     </header>
+
+    <!-- This is Banner  -->
     <div class='banner'>
 
-        <h1>Build amazing things</h1>
+        <h1 class="banner-title">Build amazing things</h1>
 
 
-        <h3>
+        <h3 class=banner-text>
             We're npm, Inc., the company behind Node package manager, the npm Registry, and npm CLI. We offer those to
             the community
             for free, but our day job is building and selling useful tools for developers like you.
         </h3>
 
-        <div class="banner-button">
-            <button>See plans</button>
-            <button>Join for free</button>
+        <div class="banner-buttons">
+            <button class='button-plans'>See plans</button>
+            <button class='button-join'>Join for free</button>
+
+        </div>
 
         </div>
 
         <div class='section-1'>
-            <img src="./images/triangle-hexagon.svg" alt="">
-            <h3>Bring the best opensource to your company</h3>
-            <p>
+            <img class='triangle' src="./images/triangle-hexagon.svg" alt="">
+            <h3 class="section-1-title">Bring the best opensource to your company</h3>
+            <p class="section-1-para"> 
                 npm is a tool used by over 11,000,000 JavaScript developers around the world. Your developers already
                 use it.
                 Your company depends on it. Create an org and get more out of the tools your team
@@ -81,30 +87,30 @@ auditing features built into the npm client, a zero-friction way to make open so
         </div>
 
         <div class="section-2">
-            <div>
+            <div class="features">
                 <img src="./images/zero-configuration.svg" alt="" class='product-icon'>
-                <h5> Zero configuration</h5>
-                <p>Create an org add your team and start collaborating.
+                <h5 class='product-title'> Zero configuration</h5>
+                <p class="product-para">Create an org add your team and start collaborating.
                     Nothing to configure, set up or manage.
                 </p>
             </div>
-            <div>
+            <div class="features">
                 <img src="./images/team-management.svg" alt="" class='product-icon'>
-                <h5> Team management </h5>
-                <p>
+                <h5 class='product-title'> Team management </h5>
+                <p class="product-para">
                     Control who has acces to what modules within your team namespace using straightforward team
                     management capabilities.
                 </p>
             </div>
-            <div>
+            <div class="features">
                 <img src="./images/familiar-features.svg" alt="" class='product-icon'>
-                <h5> Familiar features</h5>
-                <p> npm orgs has 100% parity with all the public npm registry features your developes already use.</p>
+                <h5 class='product-title'> Familiar features</h5>
+                <p class="product-para"> npm orgs has 100% parity with all the public npm registry features your developes already use.</p>
             </div>
-            <div>
+            <div class="features">
                 <img src="./images/npm-audit.svg" alt="" class='product-icon'>
-                <h5>npm audit</h5>
-                <p>
+                <h5 class='product-title'>npm audit</h5>
+                <p class="product-para">
                     Enjoy the security auditing features build into the npm cliente a zero-friction way to make open
                     source software safer
                 </p>
@@ -113,7 +119,7 @@ auditing features built into the npm client, a zero-friction way to make open so
 
         </div>
         <div class="footer">
-            <button>Create an Org</button>
+            <button class="footer-button">Create an Org</button>
         </div>
 
 
