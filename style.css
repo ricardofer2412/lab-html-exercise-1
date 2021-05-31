@@ -109,6 +109,13 @@ nav a {
 .banner-title {
   font-size: 100;
   font-weight: 900;
+  text-align: center;
+}
+.banner-text {
+  text-align: center;
+  padding: 20px;
+  padding-left: 200px;
+  padding-right: 200px;
 }
 
 .button-plans {
